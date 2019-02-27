@@ -1,0 +1,532 @@
+libdei80211mr_la-wireless-phymr.lo: wireless-phymr.cc \
+ /usr/include/stdc-predef.h /usr/include/c++/7/math.h \
+ /usr/include/c++/7/cmath \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h \
+ /usr/include/c++/7/bits/cpp_type_traits.h \
+ /usr/include/c++/7/ext/type_traits.h /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/x86_64-linux-gnu/bits/mathinline.h \
+ /usr/include/c++/7/bits/std_abs.h /usr/include/stdlib.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
+ /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+ /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/packet.h \
+ /usr/include/string.h /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+ /usr/include/assert.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/config.h \
+ /usr/include/c++/7/stdlib.h /usr/include/c++/7/cstdlib \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/autoconf.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/tclcl-1.20/tclcl.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/include/tcl.h \
+ /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/libio.h \
+ /usr/include/x86_64-linux-gnu/bits/_G_config.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/include/tclDecls.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/include/tclPlatDecls.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/otcl-1.14/otcl.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/tclcl-1.20/tclcl-config.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/tclcl-1.20/tracedvar.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/tclcl-1.20/tclcl-mappings.h \
+ /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd.h /usr/include/arpa/inet.h \
+ /usr/include/netinet/in.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+ /usr/include/x86_64-linux-gnu/bits/socket2.h \
+ /usr/include/x86_64-linux-gnu/bits/in.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/scheduler.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/heap.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/object.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/lib/bsd-list.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/packet-stamp.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mobile/antenna.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/object.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/ns-process.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/dccp/dccp_packets.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/dccp/dccp_types.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/dccp/dccp_opt.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/mobilenode.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/trace/trace.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/trace/basetrace.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/tcp/tcp.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/agent.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/connector.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/packet.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/timer-handler.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/apps/app.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/ns-process.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mac/phy.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/bi-connector.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mac/channel.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mac/phy.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/node.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/net-interface.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mobile/energy-model.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/tools/rng.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/location.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/routing/rtmodule.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/routing/addr-params.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/classifier/classifier.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/classifier/classifier-hash.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/classifier/classifier.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/ip.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/classifier/classifier-hier.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/routing/addr-params.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/routing/route.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/parentnode.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/routing/address.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/classifier/classifier-addr.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mac/mac.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mac/ll.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/link/delay.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/queue/queue.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/connector.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mac/arp.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/scheduler.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mac/lanRouter.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mac/varp.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mac/marshall.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mobile/topography.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mac/channel.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/node.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mobile/gridkeeper.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mobile/propagation.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mac/wireless-phy.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mobile/modulation.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mobile/omni-antenna.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/timer-handler.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/packet-stamp.h \
+ wireless-phymr.h power_profile.h deipropagation.h \
+ /home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/diffusion/diff_header.h \
+ papropagation.h
+
+/usr/include/stdc-predef.h:
+
+/usr/include/c++/7/math.h:
+
+/usr/include/c++/7/cmath:
+
+/usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h:
+
+/usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h:
+
+/usr/include/c++/7/bits/cpp_type_traits.h:
+
+/usr/include/c++/7/ext/type_traits.h:
+
+/usr/include/math.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathinline.h:
+
+/usr/include/c++/7/bits/std_abs.h:
+
+/usr/include/stdlib.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/bits/sysmacros.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/packet.h:
+
+/usr/include/string.h:
+
+/usr/include/strings.h:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+
+/usr/include/assert.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/config.h:
+
+/usr/include/c++/7/stdlib.h:
+
+/usr/include/c++/7/cstdlib:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/autoconf.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/tclcl-1.20/tclcl.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/include/tcl.h:
+
+/usr/include/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/libio.h:
+
+/usr/include/x86_64-linux-gnu/bits/_G_config.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/include/tclDecls.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/include/tclPlatDecls.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/otcl-1.14/otcl.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/tclcl-1.20/tclcl-config.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/tclcl-1.20/tracedvar.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/tclcl-1.20/tclcl-mappings.h:
+
+/usr/include/unistd.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
+
+/usr/include/arpa/inet.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/x86_64-linux-gnu/sys/socket.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket_type.h:
+
+/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+
+/usr/include/x86_64-linux-gnu/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/x86_64-linux-gnu/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket2.h:
+
+/usr/include/x86_64-linux-gnu/bits/in.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/scheduler.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/heap.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/object.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/lib/bsd-list.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/packet-stamp.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mobile/antenna.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/object.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/ns-process.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/dccp/dccp_packets.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/dccp/dccp_types.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/dccp/dccp_opt.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/mobilenode.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/trace/trace.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/trace/basetrace.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/tcp/tcp.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/agent.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/connector.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/packet.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/timer-handler.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/apps/app.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/ns-process.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mac/phy.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/bi-connector.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mac/channel.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mac/phy.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/node.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/net-interface.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mobile/energy-model.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/tools/rng.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/location.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/routing/rtmodule.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/routing/addr-params.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/classifier/classifier.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/classifier/classifier-hash.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/classifier/classifier.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/ip.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/classifier/classifier-hier.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/routing/addr-params.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/routing/route.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/parentnode.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/routing/address.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/classifier/classifier-addr.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mac/mac.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mac/ll.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/link/delay.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/queue/queue.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/connector.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mac/arp.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/scheduler.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mac/lanRouter.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mac/varp.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mac/marshall.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mobile/topography.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mac/channel.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/node.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mobile/gridkeeper.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mobile/propagation.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mac/wireless-phy.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mobile/modulation.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/mobile/omni-antenna.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/timer-handler.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/common/packet-stamp.h:
+
+wireless-phymr.h:
+
+power_profile.h:
+
+deipropagation.h:
+
+/home/jiacheng/Documents/ns-allinone-2.35/ns-2.35/diffusion/diff_header.h:
+
+papropagation.h:
